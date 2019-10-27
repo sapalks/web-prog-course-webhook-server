@@ -13,7 +13,7 @@ node index.js
 ## /subscribe -- Работа с подписчиками на webhook 
 **Method GET Получение текущего списка подписчиков на webhook**
 
-response
+Пример ответа
 
 ```
 {
@@ -27,19 +27,19 @@ response
  
 **Method POST Создание подписчика для webhook**
 
-request
+Пример тела запроса
 ```
 {
     "url": "http://somebody.url/"
 }
 ```
-response
+Пример ответа
 ```
 {
     "status": true
 }
 ```
-error
+Пример ошибки
 ```
 {
     "error": "error text"
