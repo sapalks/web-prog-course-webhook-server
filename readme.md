@@ -2,8 +2,8 @@
 
 ## Запуск сервера
 ```
-git clone
-cd ../
+git clone https://github.com/sapalks/web-prog-course-webhook-server.git
+cd web-prog-course-webhook-server
 npm install
 node index.js
 ```
@@ -13,19 +13,22 @@ node index.js
 ## /subscribe
 ### Получение текущего списка подписчиков на webhook
 **Method GET**
+
 response
+
 ```
 {
     "status": true,
-    "": [
-        "http://somebody.url/",
-        "http://somebody.url/"
+    "data": [
+        "http://somebody1.url/",
+        "http://somebody2.url/"
     ]
 }
 ```
 
 ### Создание подписчика для webhook 
 **Method POST**
+
 request
 ```
 {
