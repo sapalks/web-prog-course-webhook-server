@@ -10,9 +10,8 @@ node index.js
 Сервер развернется на [http://localhost:3200/](http://localhost:3200/)
 
 ## Описание API
-## /subscribe
-### Получение текущего списка подписчиков на webhook
-**Method GET**
+## /subscribe -- Работа с подписчиками на webhook 
+**Method GET Получение текущего списка подписчиков на webhook**
 
 response
 
@@ -25,9 +24,8 @@ response
     ]
 }
 ```
-
-### Создание подписчика для webhook 
-**Method POST**
+ 
+**Method POST Создание подписчика для webhook**
 
 request
 ```
